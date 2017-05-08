@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "726324b7-fe08-4bff-a2da-ae6aadf12327",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "icon48_wx_logo": {
+      "ver": "1.0.3",
+      "uuid": "e3b9a476-d0d0-4ead-8303-bb936e875fcf",
+      "rawTextureUuid": "726324b7-fe08-4bff-a2da-ae6aadf12327",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1.5,
+      "trimX": 0,
+      "trimY": 5,
+      "width": 48,
+      "height": 41,
+      "rawWidth": 48,
+      "rawHeight": 48,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
