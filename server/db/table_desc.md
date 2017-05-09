@@ -150,3 +150,31 @@
    ServerID：玩家进入房间的房间标识号码
 
    ClientIP：玩家进入房间的连接IP地址
+
+
+## ServerInfoDB主要存储的是游戏列表的信息
+
+1. ServerInfoDB
+ServerInfoDB主要存储游戏列表信息。主要有以下几个表:
+
+1. GameTypeInfo,其主要字段为:
+
+    TypeID：类型标识 ID 
+
+    TypeName：类型名字，例如棋牌类，休闲类
+
+    Enable：控制游戏大厅是否显示该类型，默认为 1，即为默认显示
+
+2. GameKindInfo,其主要字段为:
+
+    KindID: 游戏的唯一标识
+
+    TypeID: 外键(GameTypeInfo的主键)，该游戏所属类型
+
+    KindName: 游戏名称, 比如德州扑克，斗地主等。
+
+    ProcessName: 客户端进程名称
+
+    MaxVersion: 客户端进程的最低版本，若是登录时发现客户端版本低于这个值，要求其更新。
+
+    Enable: 控制游戏大厅是否显示该游戏，默认为1。
